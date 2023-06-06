@@ -3,6 +3,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { Audio, InterruptionModeAndroid, InterruptionModeIOS } from 'expo-av';
 import { useEffect, useState } from 'react';
 import * as FileSystem from 'expo-file-system';
+import * as Speech from 'expo-speech';
 
 const RECORDING_OPTIONS = {
     android: {
